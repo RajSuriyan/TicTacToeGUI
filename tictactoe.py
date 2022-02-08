@@ -70,12 +70,6 @@ def printboard():
     btn(root, ' ', 3, 2, lambda e=1:clicked(3,2))
     btn(root, ' ', 3, 3, lambda e=1:clicked(3,3))
 
-
-
-
-
-
-
 #root
 root=Tk()
 root.title('Tic Tac Toe')
@@ -83,23 +77,5 @@ root.geometry('400x400')
 
 
 printboard()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 root.mainloop()
